@@ -8,15 +8,15 @@ Instructions to Compile in same machines:
 
 2) Run the Make command in the terminal (emailserver, emailclient executables will get created ).
 ```
-	$ make
+make
 ```
 3) Run the below command to run the emailserver with PORT number - 2567 as argument (./emailserver <PORT>)
 ```
-	$ ./emailserver 2567
+./emailserver 2567
 ```
 4) Run the below command to run the emailclient with PORT number - 2567 and Server IP as an argument (./emailclient <serverIp> <PORT>)
 ```
-	$ ./emailclient 127.0.0.1 2567
+./emailclient 127.0.0.1 2567
 ```
 Instructions to Compile in different machines:
 
